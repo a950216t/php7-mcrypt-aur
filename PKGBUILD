@@ -1,7 +1,7 @@
 # Maintainer: Adrian Sausenthaler <aur@sausenthaler.de>
 
 pkgname=php7-mcrypt
-pkgver=1.0.4
+pkgver=1.0.5
 pkgrel=1
 pkgdesc="mcrypt module for extra/php7 package (>=7.2.0, <8.0.0)"
 arch=('i686' 'x86_64')
@@ -11,7 +11,7 @@ depends=('php7' 'libmcrypt')
 makedepends=('autoconf' 're2c')
 source=(http://pecl.php.net/get/mcrypt-${pkgver}.tgz)
 install=mcrypt.install
-md5sums=('7097fac371820ff130c90330b556f1bf')
+md5sums=('30a4fd60aa3c1c4ea78c3e3d953acace')
 
 build() {
   cd ${srcdir}/mcrypt-${pkgver}
