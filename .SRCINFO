@@ -1,5 +1,5 @@
-pkgbase = php74-mcrypt
-	pkgdesc = mcrypt module for AUR/php74 package (>=7.2.0, <=8.3.0)
+pkgbase = php7-mcrypt
+	pkgdesc = mcrypt module for AUR/php7 package (>=7.2.0, <=8.3.0)
 	pkgver = 1.0.6
 	pkgrel = 1
 	url = https://pecl.php.net/package/mcrypt
@@ -9,9 +9,9 @@ pkgbase = php74-mcrypt
 	license = PHP
 	makedepends = autoconf
 	makedepends = re2c
-	depends = php74
+	depends = php7
 	depends = libmcrypt
 	source = http://pecl.php.net/get/mcrypt-1.0.6.tgz
 	sha256sums = be6efd52a76ed01aabdda0ce426aed0a93db4ec06908c16a5460175c35b0d08a
 
-pkgname = php74-mcrypt
+pkgname = php7-mcrypt
